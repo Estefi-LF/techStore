@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Indica que es HTML5. Siempre primera línea. -->
+ 
+<html lang='es'>
+<!-- Elemento raíz. lang='es' ayuda a lectores de pantalla y buscadores. -->
+ 
+<head>
+<!-- Metadatos: el navegador los necesita pero no los muestra al usuario -->
+
+  <meta charset='UTF-8'>
+  <!-- Codificación de caracteres: soporta tildes, ñ, emojis -->
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <!-- Sin esto, en celular la página se ve muy pequeña -->
+
+  <title>TechStore - Tu tienda de tecnología</title>
+  <!-- Aparece en la pestaña del navegador y en Google -->
+
+  <link rel='stylesheet' href='estilos.css'>
+  <!-- Vincula el archivo CSS. El path es relativo al index.html -->
+  <!-- estilos.css debe estar en la misma carpeta que index.html -->
+</head>
+ 
+<body>
+  <header>
+    <h1>TechStore</h1>
+    <nav>
+      <ul>
+        <li><a href="#catalogo"> catalogo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section id="catalogo">
+      <h2>Catálogo de Productos</h2>
+      <div id="productos"></div>
+      <article>
+        <h3>computadoras</h3>
+        <ul>
+          <li>notebook1</li>
+          <li>notebook2</li>
+        </ul>
+      </article>
+      <article>   
+        <h3>celulares</h3>
+        <ul>
+          <li>celular1</li>
+          <li>celular2</li>
+        </ul>
+
+      </article>
+
+    </section>
+    <section id="ofertas">
+      <h2>Ofertas y Novedades </h2>
+      <ol>
+        <li>notebook1</li>
+        <li>celular2</li>
+      </ol>
+    </section>
+    
+  </main>
+
+  <footer>
+      <h6> Estefania lopez fornero 2026</h6>
+  </footer>
+
+  <script src='js/app.js'></script>
+
+</body>
+
+</html>

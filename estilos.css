@@ -1,0 +1,60 @@
+header {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color: rgb(104, 95, 148);
+    background-color: aqua;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  
+}
+
+nav{
+     background-color: rgb(234, 233, 234);
+     font-family: 'Barlow', sans-serif;
+}
+
+.tarjeta {
+    background-color: rgb(103, 142, 197);
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-bottom: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 400px;
+    padding: 15px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+
+section h2 {
+    font-family: 'Barlow', sans-serif;
+    color: blue;
+    text-align: center;
+
+}
+footer {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    background-color: rgb(237, 132, 41);
+    padding: 20px;
+}
+article h3 ul li {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+
+}
+
+#productos  {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+
+}
+
+#ofertas{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
